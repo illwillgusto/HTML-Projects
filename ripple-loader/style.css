@@ -9,6 +9,7 @@
 	box-sizing: border-box;
 }
 
+
 body {
 	margin: 0;
 	padding: 0;
@@ -16,7 +17,7 @@ body {
 	height: 100vh;
 	overflow: hidden;
 	display: flex;
-	align-items: center;
+	align-items:center;
 	justify-content: center;
 	perspective: 100vmin;
 	background: var(--green);
@@ -52,6 +53,12 @@ body {
 	border-radius: 5px;
 	animation: hide var(--spd) 0s infinite;
 	opacity: 0;
+}
+
+.centered {
+	align-content: center;
+	color: coral;
+	font-size: 36px;
 }
 
 .surface:after {
