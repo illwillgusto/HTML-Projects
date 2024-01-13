@@ -56,9 +56,12 @@ body {
 }
 
 .centered {
-	align-content: center;
 	color: coral;
 	font-size: 36px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: end;
 }
 
 .surface:after {
@@ -158,4 +161,14 @@ body {
 
 .waves + .waves:after {
 	animation-delay: calc(calc(var(--spd) / 4) * 2.5) ;
+}
+
+.container {
+	display: flex;
+	margin: 0%;
+	padding: 8px;
+	gap: 4px;
+	justify-content: center;
+	align-items: center;
+
 }
