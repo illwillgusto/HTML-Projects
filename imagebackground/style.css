@@ -4,16 +4,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     margin: 0%;
-    height: 200vh;
+    height: 210vh;
     width: 200vh;
 }
 
 .socialmedia {
-    display: inline-flex;
-    list-style: none;
-}
-
-.socialmedia .icon {
     position: relative;
     background: #ffffff;
     border-radius: 50%;
